@@ -1,0 +1,28 @@
+<ion-view view-title="MyCart" ng-controller="cartCtrl">
+    <ion-nav-buttons side="right">
+        <button class="edit-button" ng-click="config.showDelete=!config.showDelete">编辑</button>
+    </ion-nav-buttons>
+    <ion-content class="cart-content">
+        <div class="alert alert-warning" ng-show="cartDate.length==0">
+            您的购物车空空如也。<a ui-sref="tabs.home_products" class="alert-link">去购物</a>
+        </div>
+        <ion-list id="cart-list" show-delete="config.showDelete">
+            <ion-item class="item-avatar" ng-repeat="thing in cartDate">
+                <img ng-src="{{thing.product.imgsrc}}"/>
+                <p class="p-name">{{thing.product.name}}</p>
+                <div class="wrap">
+                    <p class="price">{{thing.product.price*thing.number|currency:"￥"}}</p>
+                    <div class="count"><button class="ion-minus-round"  ng-click="reduce(thing)"></button><span>{{thing.number}}</span><button class="ion-plus-round" ng-click="add(thing)"></button></div>
+                </div>
+                <ion-delete-button class="button ion-minus-circled"
+                                   ng-click="remove()"></ion-delete-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar id="mycart-footer">
+        <div class="total">
+            <p>合计</p><span>{{totalMoney() | currency:"￥"}}</span>
+        </div>
+        <a ui-sref="tabs.uerInfo">确认购买</a>
+    </ion-footer-bar>
+</ion-view>

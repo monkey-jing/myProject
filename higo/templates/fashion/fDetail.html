@@ -1,0 +1,15 @@
+<ion-view hide-tabs="true" view-title="时尚资讯详情">
+    <ion-content class="fashion-content" ng-controller="fDetailCtrl">
+        <div class="big-pic">
+            <img ng-src="{{selectFashion.imgsrc1}}"/>
+        </div>
+        <div class="main-content">
+            <p class="text">
+                {{selectFashion.detail}}
+            </p>
+            <div class="pic"><img ng-src="{{selectFashion.imgsrc2}}"/></div>
+            <div class="pic"><img ng-src="{{selectFashion.imgsrc3}}"/></div>
+            <div class="pic"><img ng-src="{{selectFashion.imgsrc4}}"/></div>
+        </div>
+    </ion-content>
+</ion-view>

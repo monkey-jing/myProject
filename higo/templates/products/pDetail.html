@@ -1,0 +1,83 @@
+<ion-view view-title="商品详情" ng-controller="proDetailCtrl">
+    <ion-nav-buttons side="right">
+        <button class="icon-button ion-share" id="share-button"></button>
+    </ion-nav-buttons>
+    <ion-content id="product-detail" >
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="2500">
+            <ion-slide>
+                <div class="big-pic">
+                    <img ng-src="{{selectProduct.imgsrc}}"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="big-pic">
+                    <img ng-src="{{selectProduct.imgsrc1}}"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="big-pic">
+                    <img ng-src="{{selectProduct.imgsrc2}}"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="big-pic">
+                    <img ng-src="{{selectProduct.imgsrc3}}"/>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="big-pic">
+                    <img ng-src="{{selectProduct.imgsrc4}}"/>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="main-text">
+            <strong>{{selectProduct.brand}}</strong>
+            <p>{{selectProduct.name}}</p>
+            <span class="price">{{selectProduct.price|currency:"RMB ￥"}}</span><span class="pre-price">{{selectProduct.prePrice|currency:"RMB ￥"}}</span><i>{{selectProduct.discount}}折</i>
+        </div>
+        <div class="store">
+            <img ng-src="{{selectProduct.storeImage}}"/>
+            <p class="buyer-name">{{selectProduct.store}}</p>
+        </div>
+        <div class="list">
+            <div class="item item-avatar">
+                <img src="images/home/pDetail-1.jpg"/>
+                <h5>100%正品</h5>
+                <p>可提供完整采购证明，假一赔三</p>
+            </div>
+            <div class="item item-avatar">
+                <img src="images/home/pDetail-2.jpg"/>
+                <h5>超赞买手</h5>
+                <p>此买手在销量、服务、物流追踪率上表现优异，HIGO推荐</p>
+            </div>
+            <div class="item item-avatar">
+                <img src="images/home/pDetail-3.jpg"/>
+                <h5>担保交易</h5>
+                <p>HIGO为您提供交易担保，您收到货品后，买手才会收到货款</p>
+            </div>
+            <div class="item item-avatar">
+                <img src="images/home/pDetail-4.jpg"/>
+                <h5>海外认证</h5>
+                <p>此买手真实生活在海外，已通过HIGO严格的海外身份认证</p>
+            </div>
+        </div>
+        <div class="pro-detail">
+            <h4>商品介绍</h4>
+            <p>{{selectProduct.proDetail}}</p>
+            <div class="small-pic"><img ng-src="{{selectProduct.imgsrc1}}"/></div>
+            <div class="small-pic"><img ng-src="{{selectProduct.imgsrc2}}"/></div>
+            <div class="small-pic"><img ng-src="{{selectProduct.imgsrc3}}"/></div>
+            <div class="small-pic"><img ng-src="{{selectProduct.imgsrc4}}"/></div>
+        </div>
+    </ion-content>
+    <ion-footer-bar id="buy-footer" style="padding: 0">
+        <div class="left">
+            <i class="icon-button ion-ios-chatbubble-outline"></i>
+            <i class="icon-button ion-ios-heart-outline" ng-click="pinkHeart()" ng-class="isFall?'ion-ios-heart':'ion-ios-heart-outline'"></i>
+        </div>
+        <div class="right">
+            <a class="gobuy" ui-sref="tabs.cart" ng-click="add(selectProduct)">立即购买</a>
+            <a class="addcart" ng-click="add(selectProduct)">加入购物车</a>
+        </div>
+    </ion-footer-bar>
+</ion-view>
