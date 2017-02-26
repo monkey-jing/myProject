@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+body{background:url(../images/bg2.jpg);position: relative;}
+#calendar{width:210px;height: 249px;overflow:hidden;border:2px solid #ccc; padding:20px;position: absolute;left:100px;top:100px;}
+#title{ text-align:center; margin-bottom:10px;color:#ddd;font-family: "微软雅黑";}
+#calendar a{color: #fff;text-decoration: none;font-family: consolas;font-size: 30px;color: pink;}
+#calendar .a1{ position:absolute;top:10px;left:10px;}
+#calendar .a2{ position:absolute;top:10px;right:10px;}
+#calendar .week{height:30px; line-height:30px;border-bottom:1px solid #ccc; margin-bottom:10px}
+#calendar .week li{ float:left;width:30px;height:30px; text-align:center; list-style:none;color:#ABE5EF;}
+#calendar .dateUl{ overflow:hidden; clear:both}
+#calendar .totoday{position: absolute;right: 3px;bottom: 3px;background: none;color: #83D8E7;border:none;cursor: pointer;}
+#calendar .dateUl li{float:left;width:30px;height:30px; text-align:center; line-height:30px;list-style:none;}
+#calendar .dateUl .ccc{ color:#AAAAAA;}
+#calendar .dateUl .red{ background:pink; color:#fff;border-radius: 15px;}
+#calendar .dateUl .sun{ color:#E98DA8;}
+#calendar .dateUl .hover{background:#6399CF; color:#fff;border-radius: 15px;cursor:pointer;}
+#calendar-r{width:210px;height: 249px;padding: 20px;border:2px solid #ccc;position: absolute;left:352px;top:100px;text-align: center;background: rgba(255,255,255,0.2);}
+#calendar-r .date{font-family:  "微软雅黑";color:#fff;font-size: 16px;margin-bottom: 10px;}
+#calendar-r .time{font-family:  "微软雅黑";color:#83D8E7;font-size: 30px;height: 35px;}
+#calendar-r .constellation{margin-top: 20px;}
+#calendar-r .constellation p{font-family:  "微软雅黑";color:pink;font-size: 18px;font-weight: bold;}
