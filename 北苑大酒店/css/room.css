@@ -1,0 +1,30 @@
+.wrap {
+  position: relative;
+  width: 10rem;
+}
+nav {
+  width: 0;
+  height: 19.73333333rem;
+  background: #2e1a10;
+  top: -1.13333333rem;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+}
+nav ul {
+  margin-top: 4.50666667rem;
+  margin-left: 0.4rem;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 0.4rem;
+}
+nav .right_men {
+  font-size: 0.56rem;
+  position: absolute;
+  right: 2.90666667rem;
+  top: 1.4rem;
+  z-index: 6;
+  color: #6d3f28;
+  display: none;
+}

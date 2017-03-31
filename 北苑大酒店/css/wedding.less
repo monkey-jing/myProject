@@ -1,0 +1,16 @@
+@divide: 10;
+@pswWidth: 750px;
+@ppr: 750px/@divide/1rem;// 定义单位1rem=75px
+section{ position: relative;}
+.piclist{ left: -590/@ppr;	transform-style: preserve-3d; margin-top: 190/@ppr; height: 800/@ppr;}
+.piclist  img{ width: 452/@ppr; border-radius: 20/@ppr;}
+.piclist li:first-child {
+  transform: rotateX(30deg);
+  transform-origin: left;
+};
+.piclist li:nth-child(3) {
+  transform: rotateX(30deg);
+  transform-origin: right;
+}
+section .text{ top: 1000/@ppr;  position: absolute; left: 50%; transform: translateX(-50%); text-align: center;}
+section .text p{ font-size: 24/@ppr; color: #fff; white-space:nowrap;}

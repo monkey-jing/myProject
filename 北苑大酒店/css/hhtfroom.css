@@ -1,0 +1,248 @@
+body {
+  background: #2e1a10;
+}
+aside {
+  height: 6rem;
+}
+section {
+  height: 10.6rem;
+}
+aside .slide {
+  height: 6rem;
+}
+.slide_pic li img {
+  width: 10rem;
+}
+section .tf_text {
+  font-size: 0.26666667rem;
+  color: #fff;
+  text-align: center;
+}
+section .tf_text_b {
+  font-size: 0.26666667rem;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+section .tf_text li,
+section .tf_text_b li {
+  height: 0.46666667rem;
+}
+.tf_text .text {
+  height: 0.4rem;
+  display: inline;
+  position: relative;
+}
+.tf_text span {
+  width: 0.13333333rem;
+  height: 0.13333333rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0.13333333rem;
+  left: -0.17333333rem;
+}
+.tf_text_b .text {
+  height: 0.4rem;
+  display: inline;
+  position: relative;
+}
+.tf_text_b span {
+  width: 0.13333333rem;
+  height: 0.13333333rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0.13333333rem;
+  left: -0.17333333rem;
+}
+.section1 {
+  display: block;
+}
+.section2 {
+  color: #fff;
+  display: none;
+}
+.section2 ul {
+  margin: 0 auto;
+  background: #190d07;
+}
+.section2 h4 {
+  font-size: 0.42666667rem;
+  height: 1.14666667rem;
+  line-height: 1.14666667rem;
+  margin-top: -0.24rem;
+  padding-left: 0.46666667rem;
+}
+.section2 li {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #34220b;
+  margin-left: 0.46666667rem;
+  margin-right: 0.46666667rem;
+}
+.section2 li p {
+  font-size: 0.34666667rem;
+}
+.section2 li span {
+  font-size: 0.42666667rem;
+}
+.section2 li i {
+  font-size: 0.42666667rem;
+  font-style: normal;
+}
+.section2 .peopleinfo label {
+  font-size: 0.32rem;
+}
+.roominfo li:first-child p {
+  float: left;
+  margin-top: 0rem;
+}
+.roominfo li:first-child .num {
+  float: right;
+  margin-top: -0.26666667rem;
+}
+.roominfo li:first-child span {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  border-radius: 50%;
+  line-height: 0.53333333rem;
+  border: 2px solid #fff;
+  display: inline-block;
+  text-align: center;
+}
+.roominfo li:first-child i {
+  margin: 0 0.4rem;
+}
+.roominfo li:nth-child(2) p,
+.roominfo li:nth-child(3) p {
+  float: left;
+  margin-top: 0rem;
+  margin-left: -1.46666667rem;
+}
+.roominfo li:nth-child(2) input,
+.roominfo li:nth-child(3) input {
+  float: left;
+  margin-top: 0.26666667rem;
+  margin-left: 0.26666667rem;
+}
+.roominfo li:nth-child(4) p,
+.peopleinfo li:nth-child(2) p {
+  float: left;
+  margin-top: 0rem;
+  margin-left: -1.46666667rem;
+}
+.roominfo li:nth-child(4) input {
+  float: left;
+  margin-top: 0.26666667rem;
+  font-size: 0.32rem;
+  color: #bfbfbf;
+  border: none;
+  background: #190d07;
+  height: 0.72rem;
+}
+.peopleinfo {
+  margin-top: 0.13333333rem;
+}
+.peopleinfo li:first-child p {
+  float: left;
+  margin-top: 0rem;
+  margin-left: -1.06666667rem;
+}
+.peopleinfo li:first-child input {
+  float: left;
+  font-size: 0.32rem;
+  color: #bfbfbf;
+  margin-left: 0.33333333rem;
+  border: none;
+  background: #190d07;
+}
+.peopleinfo li:first-child label {
+  float: left;
+}
+.peopleinfo .name {
+  height: 0.72rem;
+  width: 3.33333333rem;
+  margin-top: 0.26666667rem;
+}
+.peopleinfo .sex {
+  margin-top: 0.4rem;
+}
+.peopleinfo li:nth-child(2) p {
+  float: left;
+  margin-top: 0rem;
+  margin-left: -1.13333333rem;
+}
+.peopleinfo li .call {
+  float: left;
+  margin-top: 0rem;
+  font-size: 0.32rem;
+  color: #bfbfbf;
+  margin-left: 0.33333333rem;
+  border: none;
+  background: #190d07;
+  margin-top: 0.26666667rem;
+  height: 0.72rem;
+}
+.agree {
+  background: #190d07;
+  color: #fff;
+}
+.agree .agree_title {
+  height: 1.14666667rem;
+  position: relative;
+  border-bottom: 1px solid #2e1a10;
+}
+.agree .agree_title p {
+  font-size: 0.34666667rem;
+  width: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  padding-bottom: 0.33333333rem;
+}
+.agree .agree_title .p1 {
+  float: left;
+  top: 0;
+  left: 0;
+  padding-left: 0.50666667rem;
+  border-bottom: 0.08rem solid #9f7b59;
+}
+.agree .agree_title .p2 {
+  float: left;
+  top: 0;
+  right: 0;
+  padding-left: 0.50666667rem;
+}
+.agree .agree_info {
+  margin-top: 0.65333333rem;
+}
+.agree .agree_info p {
+  font-size: 0.32rem;
+  width: 9.2rem;
+  margin: 0 auto;
+  color: #c5c2c1;
+  line-height: 0.57333333rem;
+}
+footer {
+  font-size: 0.42666667rem;
+  height: 1.6rem;
+  font-weight: bold;
+  position: relative;
+}
+footer .money {
+  float: left;
+  height: 1.57333333rem;
+  line-height: 1.57333333rem;
+  padding-left: 0.53333333rem;
+}
+footer .button {
+  float: left;
+  width: 3.70666667rem;
+  height: 1.57333333rem;
+  background: #9f7b59;
+  line-height: 1.57333333rem;
+  text-align: center;
+  right: 0;
+  position: absolute;
+}

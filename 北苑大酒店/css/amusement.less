@@ -1,0 +1,22 @@
+@divide: 10;
+@pswWidth: 750px;
+@ppr: 750px/@divide/1rem;// 定义单位1rem=75px
+body{ background: url("../images/pub_bg.png") no-repeat;}
+header{width: 750/@ppr; height: 84/@ppr;background:rgba(0,0,0,0.8);position:relative;position: fixed; top:0; z-index: 3;}
+
+header h2{color: #ffffff; font-size: 30/@ppr;
+  font-weight: normal;line-height: 84/@ppr;
+  text-align: center;
+  width: 100%;
+}
+header span .fa{ color: #6d3f28; position: absolute;  }
+header .back {color: #6d3f28;display: block;position: absolute; top:-15/@ppr;left:25/@ppr; }
+header .back .fa{top:0;left:30/@ppr;font-size:55/@ppr; }
+header .right_men .fa{top:23/@ppr;right:30/@ppr;font-size:42/@ppr;}
+aside{width: 750/@ppr; margin-top: 84/@ppr;}
+aside .piclist{width:100%;display: inline-block; height: 310/@ppr; position: relative; margin-bottom: 10/@ppr;}
+aside .piclist img{ width:100%; display: inline-block; }
+.piclist .pictext{position: absolute; top:50%;left:50% ;color: #fff; font-size: 24/@ppr;
+  text-align: center; transform: translate(-50%,-50%)}
+.piclist .pictext p{white-space:nowrap;}
+.piclist .pictitle{ position: absolute; font-size: 26/@ppr;color: #fff; top:20/@ppr;left:30/@ppr;}

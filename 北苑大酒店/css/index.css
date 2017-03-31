@@ -1,0 +1,45 @@
+/*body,h1,h2,h3,h4,h5,h6,dl,dt,dd,input,ul,li{margin:0;padding:0;}
+ul,i{list-style:none;}
+a{text-decoration:none;}
+img,input{border:none}
+header,section,article,aside,footer,nav{display:block}
+html,body{ height:100%;font-family: "微软雅黑" }*/
+.wrap {
+  width: 10rem;
+  height: 17.73333333rem;
+  background: url("../images/bg1.jpg") -4.38666667rem 0 no-repeat;
+  background-size: cover;
+}
+.wrap .menu {
+  width: 4.13333333rem;
+  height: 17.73333333rem;
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  padding-top: 0.64rem;
+}
+.wrap ul {
+  margin-left: 0.90666667rem;
+  width: 2.36rem;
+  margin: 0 auto;
+}
+.menu li {
+  height: 1.44rem;
+  text-align: center;
+  position: relative;
+}
+.menu li a {
+  font-size: 0.42666667rem;
+  color: #ffffff;
+}
+.menu li img {
+  width: 2.24rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.menu .logo {
+  margin-left: 0.98666667rem;
+}
+.menu .logo img {
+  width: 2.16rem;
+}

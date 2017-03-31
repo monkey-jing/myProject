@@ -1,0 +1,97 @@
+section {
+  height: 17.73333333rem;
+  position: relative;
+  overflow: hidden;
+}
+.meet_pic {
+  position: absolute;
+  top: 1.96rem;
+  left: 2.33333333rem;
+}
+.meet_pic img {
+  width: 5.33333333rem;
+}
+section .pre {
+  position: absolute;
+  width: 0.77333333rem;
+  left: 0.45333333rem;
+  top: 4.48rem;
+}
+section .next {
+  position: absolute;
+  width: 0.77333333rem;
+  right: 0.45333333rem;
+  top: 4.48rem;
+}
+.arc {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 0.4rem;
+  border: 1px solid #aba59e;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+.arc img {
+  width: 6.58666667rem;
+  margin-top: 0.73333333rem;
+}
+.arc .arrow {
+  height: 4.33333333rem;
+  width: 2px;
+  background: #ffffff;
+  position: absolute;
+  top: 0.73333333rem;
+  left: 50%;
+  margin-left: -1px;
+  transition: all 1s;
+}
+.arc .triangle {
+  border: 0.2rem solid transparent;
+  border-bottom: 20px solid #ffbc08;
+  position: absolute;
+  top: -0.66666667rem;
+  left: -202%;
+}
+section .pic_list {
+  margin-top: 12.70666667rem;
+  margin-left: 0.6rem;
+}
+section .pic_list img {
+  width: 1.76rem;
+}
+.img1 {
+  transform: rotate(-36deg);
+  transform-origin: 155% 108%;
+}
+.img2 {
+  transform: rotate(-18deg);
+  transform-origin: 108% 100%;
+}
+.img4 {
+  transform: rotate(18deg);
+  transform-origin: -16% 100%;
+}
+.img5 {
+  transform: rotate(36deg);
+  transform-origin: -65% 108%;
+}
+.pic-wrap {
+  width: 1.76rem;
+  height: 2.62666667rem;
+  position: relative;
+  float: left;
+  margin-right: 0.05333333rem;
+}
+.pic_list .cover {
+  width: 1.76rem;
+  height: 2.62666667rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+}
+.pic_list .ac {
+  opacity: 0;
+}

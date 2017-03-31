@@ -1,0 +1,12 @@
+@divide: 10;
+@pswWidth: 750px;
+@ppr: 750px/@divide/1rem;// 定义单位1rem=75px
+section{ width: 750/@ppr; height: 1330/@ppr; overflow: hidden;}
+.piclist{ width:6000px; margin-top: 346/@ppr;margin-left: 50/@ppr;
+  position: relative;left:0;}
+.piclist li{ float: left; margin-left: 60/@ppr; width: 530/@ppr;
+  height: 740/@ppr; position: relative;}
+.piclist li img{ width: 530/@ppr;}
+.piclist li .cover{ position: absolute; width: 100%;
+  height: 100%;top:0; left: 0; background: #000;opacity: 0.5}
+.piclist li .ac{opacity: 0}
