@@ -1,0 +1,56 @@
+@divide: 10;
+@pswWidth: 750px;
+@ppr: 750px/@divide/1rem;// 定义单位1rem=75px
+body{ background: #2e1a10;}
+aside{height: 450/@ppr;}
+section{height: 795/@ppr;}
+aside .slide{height: 450/@ppr;}
+.slide_pic li img{width: 750/@ppr;}
+section .tf_text{ font-size: 20/@ppr; color: #fff; text-align: center;}
+section .tf_text_b{ font-size: 20/@ppr; color: #fff; left:50%; transform: translateX(-50%);position: absolute;}
+section .tf_text li,section .tf_text_b li{ height: 35/@ppr;}
+.tf_text .text{height: 30/@ppr; display: inline;position: relative; }
+.tf_text span{width: 10/@ppr; height: 10/@ppr; border-radius: 50%;background: #fff; position: absolute; top:10/@ppr;left: -13/@ppr;}
+.tf_text_b .text{height: 30/@ppr; display: inline;position: relative; }
+.tf_text_b span{width: 10/@ppr; height: 10/@ppr; border-radius: 50%;background: #fff; position: absolute; top:10/@ppr;left: -13/@ppr;}
+.section1{display: block;}
+.section2{ color: #fff;display: none;}
+.section2 ul{ margin: 0 auto;background: #190d07;}
+.section2 h4{font-size: 32/@ppr; height: 86/@ppr; line-height: 86/@ppr; margin-top: -18/@ppr; padding-left: 35/@ppr; }
+.section2 li{ height: 90/@ppr; line-height: 90/@ppr; border-bottom: 1px solid #34220b; margin-left: 35/@ppr; margin-right: 35/@ppr  }
+.section2 li p{font-size: 26/@ppr;}
+.section2 li span{font-size: 32/@ppr;}
+.section2 li i{font-size: 32/@ppr; font-style: normal;}
+.section2 .peopleinfo label{font-size: 24/@ppr;}
+.roominfo li:first-child p{float: left; margin-top: 0/@ppr;}
+.roominfo li:first-child .num{float: right;margin-top: -20/@ppr; }
+.roominfo li:first-child span { width: 40/@ppr;height: 40/@ppr; border-radius: 50%; line-height: 40/@ppr; border: 2px solid #fff;
+  display: inline-block; text-align: center;}
+.roominfo li:first-child i{ margin: 0 30/@ppr;}
+.roominfo li:nth-child(2) p,.roominfo li:nth-child(3) p{float: left;margin-top: 0/@ppr;margin-left: -110/@ppr;}
+.roominfo li:nth-child(2) input,.roominfo li:nth-child(3) input{float: left;margin-top: 20/@ppr;margin-left: 20/@ppr;}
+.roominfo li:nth-child(4) p,.peopleinfo li:nth-child(2) p{float: left;margin-top: 0/@ppr;margin-left: -110/@ppr;}
+.roominfo li:nth-child(4) input{float: left;margin-top:20/@ppr; font-size: 24/@ppr;color: #bfbfbf; border: none;
+  background: #190d07; height: 54/@ppr;}
+.peopleinfo{ margin-top: 10/@ppr;}
+.peopleinfo li:first-child p{float: left;margin-top: 0/@ppr;margin-left: -80/@ppr;}
+.peopleinfo li:first-child input{float: left;font-size: 24/@ppr;color: #bfbfbf;
+  margin-left: 25/@ppr;border: none;  background: #190d07;}
+.peopleinfo li:first-child label{float:left;}
+.peopleinfo li:first-child input{;}
+.peopleinfo .name{ height: 54/@ppr; width: 250/@ppr;margin-top:20/@ppr;}
+.peopleinfo .sex{ margin-top: 30/@ppr;}
+.peopleinfo li:nth-child(2) p{float: left;margin-top: 0/@ppr;margin-left: -85/@ppr;}
+.peopleinfo li .call{float: left;margin-top: 0/@ppr; font-size: 24/@ppr;color: #bfbfbf;
+  margin-left: 25/@ppr;border: none;  background: #190d07;margin-top:20/@ppr;height: 54/@ppr;}
+.agree{background: #190d07; color: #fff;}
+.agree .agree_title{height: 86/@ppr; position: relative; border-bottom: 1px solid #2e1a10;}
+.agree .agree_title p{  font-size: 26/@ppr; width: 50%; position: absolute; box-sizing: border-box; padding-bottom: 25/@ppr; }
+.agree .agree_title .p1{ float: left;top:0; left: 0; padding-left:38/@ppr; border-bottom:  6/@ppr solid #9f7b59; }
+.agree .agree_title .p2{float: left;top:0; right: 0;padding-left:38/@ppr;}
+.agree .agree_info{ margin-top: 49/@ppr;}
+.agree .agree_info p{font-size: 24/@ppr;width: 690/@ppr; margin: 0 auto; color: #c5c2c1; line-height: 43/@ppr;}
+footer{ font-size: 32/@ppr; height: 120/@ppr; font-weight:bold;position: relative; }
+footer .money{ float: left;height: 118/@ppr;line-height:118/@ppr; padding-left: 40/@ppr;}
+footer .button{ float: left; width: 278/@ppr; height: 118/@ppr; background: #9f7b59; line-height:118/@ppr;
+  text-align: center;right:0; position: absolute; }

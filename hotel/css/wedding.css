@@ -1,0 +1,33 @@
+section {
+  position: relative;
+}
+.piclist {
+  left: -7.86666667rem;
+  transform-style: preserve-3d;
+  margin-top: 2.53333333rem;
+  height: 10.66666667rem;
+}
+.piclist img {
+  width: 6.02666667rem;
+  border-radius: 0.26666667rem;
+}
+.piclist li:first-child {
+  transform: rotateX(30deg);
+  transform-origin: left;
+}
+.piclist li:nth-child(3) {
+  transform: rotateX(30deg);
+  transform-origin: right;
+}
+section .text {
+  top: 13.33333333rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+section .text p {
+  font-size: 0.32rem;
+  color: #fff;
+  white-space: nowrap;
+}

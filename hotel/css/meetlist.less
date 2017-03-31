@@ -1,0 +1,33 @@
+@divide: 10;
+@pswWidth: 750px;
+@ppr: 750px/@divide/1rem;// 定义单位1rem=75px
+section{ height: 1330/@ppr; position: relative; overflow: hidden}
+.meet_pic{ position: absolute; top:147/@ppr; left: 175/@ppr;}
+.meet_pic img{ width:400/@ppr;}
+section .pre{ position: absolute; width: 58/@ppr; left: 34/@ppr;
+top:336/@ppr;}
+section .next{ position: absolute;width: 58/@ppr;right: 34/@ppr;
+  top:336/@ppr;}
+.arc{ width: 750/@ppr;height: 750/@ppr;margin-top: 30/@ppr;
+  border: 1px solid #aba59e; border-radius: 50%; text-align: center;
+  position: relative;
+}
+.arc img{ width: 494/@ppr; margin-top: 55/@ppr;}
+.arc .arrow{height: 325/@ppr; width: 2px; background:#ffffff;
+  position: absolute;top:55/@ppr;left: 50%; margin-left: -1px;
+  transition: all 1s;
+}
+.arc .triangle{ border: 15/@ppr solid transparent;
+  border-bottom: 20px solid #ffbc08; position: absolute; top:-50/@ppr;
+  left:-202%
+}
+section .pic_list{ margin-top: 953/@ppr; margin-left: 45/@ppr}
+section .pic_list img{ width: 132/@ppr;}
+.img1{transform:rotate(-36deg);transform-origin:155% 108%;}
+.img2{transform:rotate(-18deg);transform-origin:108% 100%;}
+.img4{transform:rotate(18deg);transform-origin:-16% 100%;}
+.img5{transform:rotate(36deg);transform-origin:-65% 108%;}
+.pic-wrap{width: 132/@ppr; height: 197/@ppr; position: relative; float: left; margin-right: 4/@ppr;}
+.pic_list .cover{ width: 132/@ppr; height: 197/@ppr; position: absolute; top:0; left: 0; background: #000; opacity: 0.5}
+
+.pic_list .ac{opacity: 0;}

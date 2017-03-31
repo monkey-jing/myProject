@@ -1,0 +1,125 @@
+header {
+  width: 10rem;
+  height: 1.12rem;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+aside {
+  width: 10rem;
+  overflow: hidden ;
+  margin-top: 0;
+}
+aside .slide {
+  position: relative;
+  width: 10rem;
+  height: 7.38666667rem;
+}
+.slide_pic {
+  width: 30rem;
+  height: 7.38666667rem;
+}
+.slide_pic li {
+  width: 10rem;
+  position: absolute;
+  left: -10rem;
+}
+.slide_pic li:first-child {
+  left: 0;
+}
+.slide_pic li img {
+  width: 10rem;
+}
+.slide .point {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.4rem;
+  z-index: 9;
+}
+.slide .point li {
+  width: 0.30666667rem;
+  height: 0.30666667rem;
+  border-radius: 50%;
+  background: #a5a29b;
+  float: left;
+}
+.slide .point li:nth-child(2) {
+  margin: 0 0.18666667rem;
+}
+.slide .point .ac {
+  background: #fff;
+}
+section {
+  width: 10rem;
+  height: 9.24rem;
+  background: #190d07;
+  padding-top: 0.26666667rem;
+  box-sizing: border-box;
+  position: relative;
+}
+section .wqtext {
+  text-align: center;
+}
+section h3 {
+  font-size: 0.42666667rem;
+  color: #fff;
+  text-align: center ;
+  height: 1.13333333rem;
+  line-height: 1.13333333rem;
+}
+.wqtext p {
+  font-size: 0.32rem;
+  color: #fff;
+  white-space: normal;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+section .order {
+  width: 3.25333333rem;
+  height: 0.77333333rem;
+  text-align: center;
+  border: 0.02666667rem solid #fff;
+  color: #fff;
+  font-size: 0.34666667rem;
+  line-height: 0.77333333rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.85333333rem;
+  cursor: pointer;
+}
+.section1 .phone {
+  width: 7.28rem;
+  height: 2.82666667rem;
+  background: #f9f9f9;
+  text-align: center;
+  border-radius: 0.26666667rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0096ff;
+  overflow: hidden;
+  font-size: 0.48rem;
+  display: none;
+  z-index: 10;
+}
+.section1 .phone .top {
+  width: 100%;
+  height: 1.70666667rem;
+  line-height: 1.70666667rem;
+  text-align: center;
+  border-bottom: 1px solid #d5d5d5;
+}
+.section1 .phone span {
+  width: 50%;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  text-align: center;
+  display: block;
+  float: left;
+}
+.section1 .phone .cancel {
+  border-right: 1px solid #d5d5d5 ;
+  box-sizing: border-box;
+}
