@@ -1,12 +1,6 @@
 /**
  * Created by hxsd on 2016/11/17.
- *
- * 在angular.module("marsService");模块中注册一个单例的购物车对象(service)
- *
- * 这种单例对象在整个程序中只有一个，所以可以用它在各个控制器之前共享数据
- * 哪个控制器需要用它，就使用“依赖注入”将该对象注入到控制器中使用
- *
- * 在angular中创建service有多种方法，最常用的一个是.factory方法
+
  */
 angular.module("marsService").factory("cartShop",function(){
     // 声明一个数组，保存购买的商品项-充当购物车的购物筐
